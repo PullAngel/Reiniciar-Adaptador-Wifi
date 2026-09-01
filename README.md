@@ -1,4 +1,4 @@
-# Reiniciar Adaptador Wi-Fi
+# Reiniciar Adaptador Wi-Fi.
 
 Un `.cmd` liviano para reiniciar el adaptador Wi-Fi en Windows 10 y 11 sin tener que reiniciar toda la PC.
 
@@ -7,9 +7,9 @@ Busca adaptadores Wi-Fi físicos, los deshabilita desde Windows, espera 5 segund
 ```text
           .       *                  .--------------------------------------------------.
                _/\_                  |              INSTRUCCIONES DE USO               |
-         *   .'    `.          .----< |  1. Abri el archivo como administrador.         |
+         *   .'    `.          .----< |  1. Abrí el archivo como administrador.         |
             /  /\ /\  \              |  2. Espera unos segundos.                        |
-      _____/__/  V  \__\_____        |  3. Listo.                                        |
+      _____/__/  V  \__\_____        |  3. Liisto.                                        |
      /_____.-' .---. `-.____\        '--------------------------------------------------'
            |  / o o \  |
            |  \  ^  /  |
@@ -26,7 +26,7 @@ Busca adaptadores Wi-Fi físicos, los deshabilita desde Windows, espera 5 segund
         /___/        \___\
 ```
 
-## Uso rapido
+## Uso rápido
 
 1. Descarga [Reiniciar-WiFi.cmd](./Reiniciar-WiFi.cmd).
 2. Ejecuta en modo administrador.
@@ -67,7 +67,7 @@ foreach ($adapter in $adapters) {
 }
 ```
 
-Este comando reinicia el dispositivo Wi-Fi y su controlador. No garantiza que Internet vuelva de inmediato: Windows todavía necesita reconectarse a la red.
+Este comando reinicia el dispositivo Wi-Fi y su controlador. Suele solucionar errores de lectura de redes wifi. 
 
 ## Requisitos
 
